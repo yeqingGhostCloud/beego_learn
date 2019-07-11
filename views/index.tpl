@@ -45,11 +45,11 @@
     }
 
     footer {
-      line-height: 1.8;
-      text-align: center;
-      padding: 50px 0;
-      color: #999;
-    }
+           line-height: 1.8;
+           text-align: center;
+           padding: 50px 0;
+           color: #999;
+         }
 
     .description {
       text-align: center;
@@ -83,7 +83,7 @@
   <footer>
     <div class="author">
       Official website:
-      <a href="http://{{.Website}}">{{.Website}}</a> /
+      <a href="http://{{.Website}}">{{.Website}}  {{.Name}}</a> /
       Contact me:
       <a class="email" href="mailto:{{.Email}}">{{.Email}}</a>
     </div>
